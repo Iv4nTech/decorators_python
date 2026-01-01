@@ -1,3 +1,6 @@
+# Crea un decorador memoizar que guarde en un diccionario los resultados de funciones costosas basados en sus argumentos.
+# Si se llama a la función con los mismos argumentos, debe devolver el valor guardado en lugar de recalcularlo.
+
 parametros_guardados = {}
 
 def memorizar(function):

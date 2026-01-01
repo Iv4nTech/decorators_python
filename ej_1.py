@@ -1,3 +1,5 @@
+# Crea un decorador llamado medir_tiempo que utilice el módulo time. Debe imprimir cuánto tiempo tarda en ejecutarse la función decorada.
+
 from time import sleep, time
 # Permite es módulo usar functools.wraps
 import functools
