@@ -1,0 +1,2 @@
+# Diseña un decorador ejecutar_una_vez que permita que una función se ejecute 
+# normalmente la primera vez, pero que en las llamadas subsiguientes no haga nada (o devuelva un mensaje indicando que ya se ejecutó).

@@ -1,0 +1,2 @@
+# Escribe un decorador requiere_rol(rol_permitido). La función decorada debe recibir un diccionario de usuario. Si el rol del 
+# usuario no coincide con el rol_permitido, debe mostrar "Acceso Denegado".

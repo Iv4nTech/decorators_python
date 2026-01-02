@@ -1,0 +1,2 @@
+# Escribe un decorador solo_enteros que verifique que todos los argumentos pasados a una función sean de tipo int. 
+# Si algún argumento no lo es, debe lanzar una excepción o imprimir un error en lugar de ejecutar la función.
