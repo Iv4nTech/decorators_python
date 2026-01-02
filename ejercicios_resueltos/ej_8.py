@@ -10,18 +10,20 @@ def memorizar(function):
             parametros_guardados[parametros_guardar] = parametros_guardados
             print('Calculando...')
             print(parametros_guardados)
-            return parametros_guardados
+            return sum(args) + sum(kwargs)
        else:
-           print('Cacheado!')
+           print('Cacheado!') 
            print(parametros_guardados)
-           return parametros_guardados
+           return sum(list(parametros_guardados[parametros_guardar].keys())[0])
     return wrapper
 
 @memorizar
 def sumar(*args):
     return sum(args)
 
-sumar(1,4,5,4)
-sumar(1,4,3,4)
-sumar(1,4,5,4)
-sumar(1,4,5,4)
+#Para mostrar los números, para ver que verdaderamente se están sumando
+resultado = sumar(5, 5)
+print('Resultado:', resultado, sep=" ")
+
+resultado = sumar(5, 5)
+print('Resultado:', resultado, sep=" ")
